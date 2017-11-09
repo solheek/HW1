@@ -25,7 +25,7 @@ function progHelp
 	echo "*       Now, You can use the follow functions.        *"
 	echo "*       Enter the number which you want to use.       *"
 	echo "*                                                     *"
-	echo "*        1. calculator                                *"
+	echo "*        1. Calculator                                *"
 	echo "*        2. File I/O                                  *"
 	echo "*        3. Perform DB query                          *"
 	echo "*        4. Process linux commands                    *"
@@ -83,11 +83,15 @@ while true; do
 
 	case $inputNum in
 		1)
-			echo "# [Calculator]"
 			./cal.sh
+			exit;
 			;;
 		2)
-			echo "# [File I/O] "
+			./fileIO.sh
+			exit;
+			;;
+		3)
+			echo "DB!!!!"
 			;;
 		'exit')
 			exit;

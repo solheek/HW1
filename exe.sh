@@ -28,7 +28,7 @@ function progHelp
 	echo "*        1. Calculator                                *"
 	echo "*        2. File I/O                                  *"
 	echo "*        3. Perform DB query                          *"
-	echo "*        4. Process linux commands                    *"
+	echo "*        4. Process linux command                     *"
 	echo "*        5. Display substitution of output            *"
 	echo "*                                                     *"
 	echo "*       To end this program, please enter 'exit'      *"
@@ -82,16 +82,17 @@ while true; do
 	read -p "# select: " inputNum
 
 	case $inputNum in
-		1)
-			./cal.sh
+		1)	./cal.sh
 			exit;
 			;;
-		2)
-			./fileIO.sh
+		2)	./fileIO.sh
 			exit;
 			;;
-		3)
-			echo "DB!!!!"
+		3)	./queryDB.sh
+			exit;
+			;;
+		4)	./topCo.sh
+			exit;
 			;;
 		'exit')
 			exit;

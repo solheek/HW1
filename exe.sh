@@ -29,7 +29,7 @@ function progHelp
 	echo "*        2. File I/O                                  *"
 	echo "*        3. Perform DB query                          *"
 	echo "*        4. Process linux command                     *"
-	echo "*        5. Display substitution of output            *"
+	echo "*        5. Display substitution of df -k output      *"
 	echo "*                                                     *"
 	echo "*       To end this program, please enter 'exit'      *"
 	echo "*******************************************************"
@@ -93,6 +93,9 @@ while true; do
 			;;
 		4)	./topCo.sh
 			exit;
+			;;
+		5)	./subOut.sh
+			progHelp;
 			;;
 		'exit')
 			exit;

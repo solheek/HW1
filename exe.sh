@@ -83,19 +83,18 @@ while true; do
 
 	case $inputNum in
 		1)	./cal.sh
-			exit;
+			#exit;
 			;;
 		2)	./fileIO.sh
-			exit;
+			#exit;
 			;;
 		3)	./queryDB.sh
-			exit;
+			#exit;
 			;;
 		4)	./topCo.sh
-			exit;
+			#exit;
 			;;
 		5)	./subOut.sh
-			progHelp;
 			;;
 		'exit')
 			exit;

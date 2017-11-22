@@ -1,0 +1,33 @@
+# [ADD] COM1=ACTIVE
+# [READ] lm.cfg
+# [READ] WAS_EMS_ST_TIME=170200
+# [Error] Enter the valid parameters.
+# [READ] ONE_SELECT_SIZE=50000
+# [READ Error] The parameter does not exist.
+# [CHG] COM1=0
+# [READ] COM1=0
+# [READ] lm.cfg
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [READ] lm.cfg
+# [READ Error] The parameter does not exist.
+# [READ Error] The parameter does not exist.
+# [READ] lm.cfg
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.
+# [Error] Enter the valid parameters.

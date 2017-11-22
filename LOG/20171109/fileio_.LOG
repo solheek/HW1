@@ -1,0 +1,12 @@
+# [Error] Enter the valid parameters.
+# [READ] lm.cfg
+# [READ] A=B
+# [READ] NTELS=12345
+# [READ Error] The parameter does not exist.
+# [CHG] A=AAA
+# [CHG Error] The parameter does not exist.
+# [CHG] CHECK_URL=ABCED
+# [CHG Error] Enter all parameters.
+# [ADD] QWET123=BBBB
+# [ADD Error] Enter all parameters.
+# [ADD Error] Enter the valid parameter name.

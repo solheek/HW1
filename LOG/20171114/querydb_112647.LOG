@@ -1,0 +1,4 @@
+# [SELECT] zonedb user 10
+# [SELECT] zonedb service 3
+# [SELECT] zonedb service 10
+# [UPDATE] zonedb service free Y

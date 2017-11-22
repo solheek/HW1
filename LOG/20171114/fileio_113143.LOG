@@ -1,0 +1,14 @@
+# [Error] Enter the valid parameters.
+# [READ] lm.cfg
+# [Error] Enter the valid parameters.
+# [READ] A=AAA
+# [READ] NTELS=12345
+# [READ Error] The parameter does not exist.
+# [READ] ONE_SELECT_SIZE=50000
+# [READ] PCIS_ST_INTV=1
+# [CHG] CURL_TIMEOUT=NONE
+# [READ] CURL_TIMEOUT=NONE
+# [ADD] MONDAY=1
+# [READ] lm.cfg
+# [ADD Error] Enter the valid parameter name.
+# [Error] Enter the valid parameters.

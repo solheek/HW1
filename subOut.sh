@@ -15,5 +15,5 @@ function subHelp
 
 subHelp;
 echo "# df -k is substituted to df -h." | tee -a $SUB_FILE
-df -k | gawk -f trans.awk;
+df -k | awk -f trans.awk;
 

@@ -21,7 +21,7 @@ calHelp;
 while true; do
 	read -p "# Expression: " inputExp
 	
-	if [[ `echo $inputExp | tr -d "[:digit:] [+] [-] [*] [/]"` ]] || 
+	if [[ `echo $inputExp | tr -d "[:digit:] [+] [\-] [*] [/]"` ]] || 
 	   [[ "$inputExp" == "" ]] && [[ ! "$inputExp" == "exit" ]]; then
 		echo "# [Error] Enter the valid expression." | tee -a $CAL_FILE
 		calHelp;
